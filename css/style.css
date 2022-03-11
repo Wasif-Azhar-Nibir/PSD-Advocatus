@@ -1,0 +1,815 @@
+/*
+	author: Wasif Azhar Nibir;
+	mail: wasif9673@gmail.com;
+*/
+
+/*
+
+	===index===
+
+	1.Header
+	2.About us
+	3.Practice area
+	4.Lawyers
+	5.Publications
+	6.Faq
+	7.Conatct
+*/
+/* Theme CSS */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+/* Global CSS */
+*{
+	margin: 0px;
+	padding: 0px;
+}
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+	font-family: 'Lato', sans-serif;
+}
+/* Header Section */
+nav#mainNav {
+    background-color: white;
+}
+a.navbar-brand.js-scroll-trigger {
+    color: black;
+}
+a.navbar-brand.js-scroll-trigger span{
+    color: #E8BF5D;
+}
+a.nav-link.js-scroll-trigger{
+	color: #111111;
+	margin: 0px 5px;
+	position: relative;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    padding: 0 10px;
+}
+
+a.nav-link.js-scroll-trigger:after{
+    content: "";
+    position: absolute;
+    background-color: #E8BF5D;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a.nav-link.js-scroll-trigger:hover:after{
+    width: 100%;
+}
+.fa.fa-bars{
+	color: black;
+}
+/* Hero Section */
+.hero{
+	background: url(../img/hero-img.jpg)no-repeat;
+	background-size: cover;
+	background-position: top center;
+}
+.hero-content h2{
+	color: white;
+	font-size: 45px;
+}
+.hero-content h4{
+	color: white;
+	font-size: 28px;
+}
+.col-md-8.ml-auto.hero-content {
+    border-left: 3px solid #E8BF5D;
+}
+.hero-btn{
+	background-color:#E8BF5D;
+	color: black;
+	margin-top: 45px;
+	padding: 5px 35px;
+	cursor: pointer;
+	border-radius: 20px;
+    border: none;
+}
+.hero-btn:hover{
+	background-color:#303539;
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+.row.hero-row {
+    margin-top: 42%;
+}
+/* About Section */
+.about{
+	background: url(../img/banner-img-1/jpg)no-repeat;
+	background-size: cover;
+	background-position: ;
+}
+.col-md-8.ml-auto.about-content {
+    border-left: 3px solid #E8BF5D;
+    margin-left: 0px!important;
+    margin-bottom: 30px;
+}
+.about-content h2{
+
+}
+.about-content h4{
+	
+}
+.abt-history h4{
+
+}
+.abt-history h5{
+	margin-bottom: 65px;
+    margin-top: 25px;
+}
+.abt-text h6{
+	margin-bottom: 15px;
+    margin-top: 50px;
+}
+.Abt-text h4{
+}
+.Abt-text p{
+    margin-top: 20px;
+}
+/* Practice Section */
+.practice{
+	background: url(../img/banner-img-2.jpg)no-repeat;
+	background-size: cover;
+	background-position: bottom;
+}
+.col-md-8.ml-auto.practice-content {
+    margin-left: -30px!important;
+    margin-bottom: 25px;
+    border-left: 3px solid #E8BF5D;
+}
+.row.practice-row {
+    margin-top: -75px;
+}
+.practice-content h2{
+	color: white;
+}
+.practice-content h6{
+	color: white;
+}
+.practice-text h6{
+	color: white;
+    margin-top: -28px;
+    margin-left: 62px;
+    margin-bottom: 35px;
+}
+.practice-text p{
+	color: white;
+}
+.fa.fa-handshake-o{
+	color: #E8BF5D;
+	font-size: 35px;
+}
+.fa.fa-wrench{
+	color: #E8BF5D;
+	font-size: 35px;
+}
+.row.practice-a{
+	margin-top: 25px;
+}
+.fa.fa-desktop{
+color: #E8BF5D;
+	font-size: 35px;
+}
+.fa.fa-home{
+color: #E8BF5D;
+	font-size: 35px;
+}
+/* Lawyers Section */
+.lawyers{
+	height: 695px;
+}
+.col-md-8.ml-auto.lawyer-content {
+    margin-left: -30px!important;
+    margin-bottom: 25px;
+    border-left: 3px solid #E8BF5D;
+}
+.lawyer-content h2{
+	color: #111111;
+}
+.lawyer-content h6{
+	color: #666666;
+}
+.lawyer-text img{
+	max-width: 100%;
+	height: auto;
+}
+.lawyer-text h5{
+	color: #111111;
+	margin-top: 15px;
+}
+.lawyer-text p{
+	color: #666666;
+}
+/* Review Section */
+.review-content {
+    margin-left: -30px!important;
+    margin-bottom: 25px;
+    border-left: 3px solid #E8BF5D;
+    margin-top: -400px;
+    padding-left: 15px;
+}
+.review-content h2{
+	color: white;
+	margin-left: -700px;
+}
+.review-content h6{
+	color: white;
+	margin-left: -55px;
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 0% !important; 
+}
+i.fa.fa-chevron-right {
+    margin-left: -100px;
+}
+i.fa.fa-chevron-left {
+    margin-right: -100px;
+}
+.Abc img{
+	max-width: 100%;
+	height: auto;
+	background-color: transparent;
+}
+.cba h5{
+	color: white;
+	margin-left: -265px;
+    margin-top: 80px;
+}
+.cba h6{
+	color: white;
+	margin-left: -235px;
+}
+.cba p{
+	color: white;
+	margin: 0px 60px;
+}
+i.fa.fa-quote-left {
+    font-size: 35px;
+    color: #515151;
+    margin-left: -510px;
+}
+/* Publications section */
+.publications{
+	height: 1000px;
+}
+.col-md-8.ml-auto.recent-content {
+    margin-left: -30px!important;
+    margin-bottom: 25px;
+    border-left: 3px solid #E8BF5D;
+}
+.recent-content h2{
+	color: #111111;
+}
+.recent-content h6{
+	color: #666666;
+}
+.card-deck{
+	margin-top: 35px;
+}
+.card-body hr{
+	border: 2px solid #E8BF5D;
+}
+.card-body p.abd span{
+	margin-left: 90px;
+}
+p.card-text {
+    margin-top: -25px;
+    margin-left: 30px;
+}
+i.fa.fa-share {
+    margin-left: 100px;
+    margin-right: 5px;
+}
+/* FAQ section */
+.faq{
+	background: url(../img/banner-6.jpg)no-repeat;
+	background-size: cover;	
+}
+.col-md-8.ml-auto.faq-content {
+    margin-left: -30px!important;
+    margin-bottom: 25px;
+    margin-top: -70px;
+    border-left: 3px solid #E8BF5D;
+}
+.faq-content h2{
+	color: #fff;
+}
+.faq-content h6{
+	color: #fff;
+}
+.faq-text p{
+	color: white;
+}
+.faq-text p span{
+	margin-left: 78px;
+	font-weight: 700;
+}
+.faq-text span.bca{
+	margin-left: 160px;
+	font-weight: 700;
+}
+.faq-text span.mj{
+	margin-left: 304px;
+	font-weight: 700;
+}
+.faq-text span.ki{
+	margin-left: 265px;
+	font-weight: 700;
+}
+.faq-text span.kl{
+	margin-left: 258px;
+	font-weight: 700;
+}
+.faq-text hr{
+	border: 1px solid #E8BF5D;
+}
+.faq-abc{
+	background-color: #E8BF5D;
+	box-shadow: 0px 5px 15px 5px #E8BF5D;
+}
+.faq-abc p{
+	color: black;
+	padding: 75px 33px;
+}
+.faq-text p:hover{
+	color: #E8BF5D;
+	cursor: pointer;
+	transition: 0.2s ease-in-out;
+}
+/* Contact section */
+.contact{
+	height: auto;
+}
+.col-md-8.ml-auto.contact-content {
+    margin-left: -30px!important;
+    margin-bottom: 25px;
+    margin-top: -70px;
+    border-left: 3px solid #E8BF5D;
+}
+.contact-content h2{
+	color: black;
+}
+.contact-content h6{
+	color: black;
+}
+.form-control-1{
+	border: none;
+    padding: 10px 150px 10px 0px;
+    margin: 15px 0px;
+    border-bottom: 2px solid #D5D5D5;
+    font-style: italic;
+}
+.form-control-2{
+	border: none;
+    padding: 10px 150px 50px 0px;
+    margin: 15px 0px;
+    border-bottom: 2px solid #D5D5D5;
+    font-style: italic;
+}
+.contact-btn{
+	background-color:#E8BF5D;
+	color: black;
+	margin-top: 45px;
+	padding: 5px 35px;
+	cursor: pointer;
+	border-radius: 20px;
+    border: none;
+}
+.contact-btn:hover{
+	background-color:#303539;
+	color: white;
+	transition: 0.4s ease-in-out;
+}
+/* Footer section */
+.footer{
+	background-color: black;
+	height: 85px;
+	padding: 0px;
+	margin: 0px 0px;
+}
+.footer-bottom p{
+	color: white;
+	margin-top: 25px;
+}
+.row.Footer {
+	margin: 0px!important;
+}
+.fa.fa-facebook{
+	color: white;
+	margin-top: 25px;
+    margin-right: 12px;
+    margin-left: 225px;
+}
+.fa.fa-twitter{
+	color: white;
+	margin-right: 12px;
+}
+.fa.fa-google-plus{
+	color: white;
+	margin-right: 12px;
+}
+.fa.fa-instagram{
+	color: white;
+	margin-right: 12px;
+}
+
+/*Responsive breakpoints*/
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 576px){
+a.nav-link.js-scroll-trigger {
+    padding: 5px 10px;
+}
+a.nav-link.js-scroll-trigger:after{
+    bottom: -3px;
+}
+.col-md-8.ml-auto.hero-content {
+    margin-left: 10px!important;
+}
+.hero-content h2 {
+    font-size: 30px;
+}
+.col-md-8.ml-auto.about-content {
+    margin-left: 10px!important;
+}
+.col-md-2.col-sm-2.abt-history {
+    width: 35%;
+}
+.col-md-4.col-sm-4.abt-text {
+    width: 65%;
+    margin-top: 30px;
+}
+.abt-history h5 {
+    margin-top: 0px;
+}
+.abt-text h6 {
+    margin-top: 0px;
+}
+.col-md-8.ml-auto.practice-content {
+    margin-left: 10px!important;
+}
+.col-md-8.ml-auto.lawyer-content {
+    margin-left: 10px!important;
+}
+.col-md-8.ml-auto.recent-content {
+    margin-left: 10px!important;
+}
+.col-md-8.ml-auto.faq-content {
+    margin-left: 10px!important;
+}
+.col-md-8.ml-auto.contact-content {
+    margin-left: 10px!important;
+}
+.lawyers {
+    height: auto;
+}
+div#carouselExampleCaptions {
+    display: none;
+}
+.publications {
+    height: auto;
+}
+.card-body p.abd span {
+    margin-left: 40px;
+}
+i.fa.fa-share {
+    margin-left: 55px;
+}
+.faq-text p span {
+    margin-left: 5px;
+}
+.faq-text span.bca {
+    margin-left: 5px;
+}
+.faq-text span.mj {
+    margin-left: 5px;
+}
+.faq-text span.kl {
+    margin-left: 5px;
+}
+.faq-text span.ki {
+    margin-left: 5px;
+}
+.contact-btn {
+    margin-bottom: 45px;
+}
+.form-control-1 {
+    padding: 10px 125px 10px 0px;
+}
+.form-control-2 {
+    padding: 10px 125px 50px 0px;
+}
+.footer-bottom p {
+    margin-bottom: 5px;
+    text-align: center;
+}
+.fa.fa-facebook {
+    margin-top: 0px; 
+    margin-right: 12px;
+    margin-left: 85px;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */ /*sm*/
+@media (min-width: 576.01px) and (max-width: 768px){
+a.nav-link.js-scroll-trigger {
+    padding: 5px 10px;
+}
+a.nav-link.js-scroll-trigger:after{
+    bottom: -3px;
+}
+.abt-text h6 {
+    margin-bottom: -30px;
+}
+.abt-history h5 {
+    margin-top: 40px;
+}
+.col-md-8.ml-auto.practice-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.lawyer-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.recent-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.faq-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.contact-content {
+    margin-left: 0px!important;
+}
+.lawyers {
+    height: auto;
+}
+.col-md-3.lawyer-text {
+    margin-left: 115px;
+}
+.review-content {
+    margin-bottom: -43px!important;
+     margin-top: 0px!important; 
+}
+.review-content h2 {
+    margin-left: -265px!important;
+    font-size: 20px;
+}
+.review-content h6 {
+    margin-left: -1px!important;
+    font-size: 12px;
+}
+.Abc img {
+    display: none;
+}
+i.fa.fa-quote-left {
+	display: none;
+}
+.cba p {
+    margin: 35px 0px 10px 0px!important;
+    font-size: 13px;
+}
+.cba h5 {
+    margin-top: -5px!important;
+    margin-left: 0px;
+    font-size: 13px;
+}
+.cba h6 {
+    margin-left: 0px;
+    font-size: 13px; 
+}
+p.abd {
+    font-size: 13px;
+}
+.publications {
+    height: auto;
+}
+.card-body p.abd span {
+    margin-left: 0px;
+}
+i.fa.fa-share {
+    margin-left: -16px;
+}
+.faq-text p span {
+    margin-left: 5px;
+}
+.faq-text span.bca {
+    margin-left: 5px;
+}
+.faq-text span.mj {
+    margin-left: 5px;
+}
+.faq-text span.kl {
+    margin-left: 5px;
+}
+.faq-text span.ki {
+    margin-left: 5px;
+}
+.form-control-1 {
+    padding: 10px 350px 10px 0px;
+}
+.form-control-2 {
+    padding: 10px 350px 50px 0px;
+}
+.contact-btn {
+    margin-bottom: 45px;
+}
+.fa.fa-facebook {
+    margin-left: 75px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */ /*md*/
+@media (min-width: 768.01px) and (max-width: 992px){
+a.nav-link.js-scroll-trigger {
+    padding: 5px 10px;
+}
+a.nav-link.js-scroll-trigger:after{
+    bottom: -3px;
+}
+.abt-text h6 {
+    margin-bottom: -30px;
+}
+.abt-history h5 {
+    margin-top: 40px;
+}
+.col-md-8.ml-auto.practice-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.lawyer-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.recent-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.faq-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.contact-content {
+    margin-left: 0px!important;
+}
+.review-content {
+    margin-bottom: -97px!important;
+     margin-top: 0px!important; 
+}
+.review-content h2 {
+    margin-left: -346px!important;
+    font-size: 25px;
+}
+.review-content h6 {
+    margin-left: -20px!important;
+    font-size: 14px;
+}
+.Abc img {
+    margin-top: 90px!important;
+}
+i.fa.fa-quote-left {
+    font-size: 20px!important;
+    margin-left: -312px!important;
+    margin-top: 92px!important;
+}
+.cba p {
+    margin: 8px 0px 15px 0px!important;
+    font-size: 13px;
+}
+.cba h5 {
+    margin-top: 0px!important; 
+    margin-left: 0px;
+    font-size: 13px;
+}
+.cba h6 {
+    margin-left: 0px;
+    font-size: 13px; 
+}
+p.abd {
+    font-size: 13px;
+}
+.card-body p.abd span {
+    margin-left: 0px;
+}
+p.card-Text {
+    font-size: 13px;
+}
+p.card-text {
+    margin-top: -22px;
+    margin-left: 20px;
+    font-size: 13px;
+}
+i.fa.fa-share {
+    margin-left: 16px;
+}
+.faq-text p span {
+    margin-left: 5px;
+}
+.faq-text span.bca {
+    margin-left: 5px;
+}
+.faq-text span.mj {
+    margin-left: 5px;
+}
+.faq-text span.kl {
+    margin-left: 5px;
+}
+.faq-text span.ki {
+    margin-left: 5px;
+}
+.form-control-1 {
+    padding: 10px 60px 10px 0px;
+}
+.form-control-2 {
+    padding: 10px 60px 50px 0px;
+}
+
+}
+
+/* Large devices (desktops, 992px and up) */ /*lg*/
+@media (min-width: 992.01px) and (max-width: 1200px){
+.col-md-8.ml-auto.practice-content {
+    margin-left: 0px!important;
+}
+.col-md-8.ml-auto.lawyer-content {
+    margin-left: 0px!important;
+}
+.review-content {
+    margin-bottom: -40px!important;
+     margin-top: 0px!important; 
+}
+.review-content h2 {
+    margin-left: -450px!important;
+}
+.review-content h6 {
+    margin-left: -23px!important;
+}
+.Abc img {
+    margin-top: 50px!important;
+}
+i.fa.fa-quote-left {
+    font-size: 30px!important;
+    margin-left: -330px!important;
+    margin-top: 60px!important;
+}
+.cba p {
+    margin: 10px 0px 15px 0px!important;
+}
+.cba h5 {
+    margin-top: 0px!important; 
+    margin-left: 0px;
+}
+.cba h6 {
+    margin-left: 0px; 
+}
+.col-md-8.ml-auto.recent-content {
+    margin-left: 0px!important;
+}
+.abt-text h6 {
+    margin-top: 40px;
+}
+i.fa.fa-share {
+    margin-left: 55px;
+}
+.col-md-8.ml-auto.faq-content {
+    margin-left: 0px!important;
+}
+.faq-text p span {
+    margin-left: 5px;
+}
+.faq-text span.bca {
+    margin-left: 5px;
+}
+.faq-text span.mj {
+    margin-left: 5px;
+}
+.faq-text span.kl {
+    margin-left: 5px;
+}
+.faq-text span.ki {
+    margin-left: 5px;
+}
+.col-md-8.ml-auto.contact-content {
+    margin-left: 0px!important;
+}
+.form-control-1 {
+    padding: 10px 115px 10px 0px;
+}
+.form-control-2 {
+    padding: 10px 115px 50px 0px;
+}
+.card-body p.abd span {
+    margin-left: 41px;
+}
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */ /*xl*/
+@media (min-width: 1200px)
